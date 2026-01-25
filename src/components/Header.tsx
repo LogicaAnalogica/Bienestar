@@ -22,9 +22,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-soft py-4"
-          : "bg-transparent py-6"
+        isScrolled ? "bg-background/95 backdrop-blur-md shadow-soft py-4" : "bg-transparent py-6"
       }`}
     >
       <div className="container-narrow">
@@ -36,22 +34,12 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => scrollToSection("packs")}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Packs
-            </button>
-            <button
               onClick={() => scrollToSection("contacto")}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               Contacto
             </button>
-            <Button
-              onClick={() => scrollToSection("packs")}
-              size="sm"
-              className="btn-primary"
-            >
+            <Button onClick={() => scrollToSection("packs")} size="sm" className="btn-primary">
               Ver precios
             </Button>
           </nav>
@@ -81,11 +69,7 @@ const Header = () => {
             >
               Contacto
             </button>
-            <Button
-              onClick={() => scrollToSection("packs")}
-              size="sm"
-              className="w-full btn-primary"
-            >
+            <Button onClick={() => scrollToSection("packs")} size="sm" className="w-full btn-primary">
               Ver precios
             </Button>
           </nav>
