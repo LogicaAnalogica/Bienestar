@@ -15,14 +15,14 @@ const packs: Pack[] = [
   {
     name: "Pack Inicio",
     price: 180,
-    platform: "Carrd",
+    platform: "Si quieres algo ya",
     features: [
       "1 página con 4 secciones",
       "Diseño rápido y limpio",
-      "Formulario de contacto básico",
+      "Con tus datos de contacto",
       "Ajustes mínimos incluidos",
     ],
-    limitations: ["SEO básico", "Poco escalable"],
+    limitations: ["Sin formulario de contacto", "Poco escalable"],
     cta: "Comprar Pack Inicio",
   },
   {
