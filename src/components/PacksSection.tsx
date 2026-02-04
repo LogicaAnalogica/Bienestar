@@ -50,7 +50,7 @@ const packs: Pack[] = [
     features: [
       "1 página con 6-7 secciones",
       "Conexión de email marketing",
-      "O conexión a agenda de reserva de citas"
+      "O conexión a agenda de reserva de citas",
       "Formulario de suscripción a newsletter",
       "Páginas legales personalizadas",
       "Hasta 3 revisiones",
