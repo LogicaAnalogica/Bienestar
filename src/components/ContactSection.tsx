@@ -57,9 +57,7 @@ const ContactSection = () => {
             <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground mb-4">
               ¿Hablamos de tu proyecto?
             </h2>
-            <p className="text-muted-foreground">
-              Cuéntanos qué necesitas y te respondemos rápido para que empieces ya.
-            </p>
+            <p className="text-muted-foreground">Cuéntame qué necesitas y te respondo rápido para que empieces ya.</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -102,18 +100,11 @@ const ContactSection = () => {
               {errors.message && <p className="text-sm text-destructive mt-1">{errors.message}</p>}
             </div>
 
-            <Button
-              type="submit"
-              disabled={isSubmitting}
-              size="lg"
-              className="w-full btn-primary py-6 text-base"
-            >
+            <Button type="submit" disabled={isSubmitting} size="lg" className="w-full btn-primary py-6 text-base">
               {isSubmitting ? "Enviando..." : "Enviar mensaje"}
             </Button>
 
-            <p className="text-center text-sm text-muted-foreground">
-              📩 Respondemos rápido para que empieces ya
-            </p>
+            <p className="text-center text-sm text-muted-foreground">📩 Respondemos rápido para que empieces ya</p>
           </form>
         </div>
       </div>
