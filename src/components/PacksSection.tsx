@@ -39,7 +39,7 @@ const packs: Pack[] = [
       "Páginas legales estándar con tus datos",
       "Hasta 2 revisiones",
     ],
-    limitations: ["Sin newsletter", "Sin reserva de citas"]
+    limitations: ["Sin newsletter", "Sin reserva de citas"],
     cta: "Elegir Pack Crecimiento",
     popular: true,
   },
