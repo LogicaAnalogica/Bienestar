@@ -14,7 +14,7 @@ interface Pack {
 const packs: Pack[] = [
   {
     name: "Pack Inicio",
-    price: 150,
+    price: 180,
     platform: "Carrd",
     features: [
       "1 página con 4 secciones",
@@ -22,15 +22,12 @@ const packs: Pack[] = [
       "Formulario de contacto básico",
       "Ajustes mínimos incluidos",
     ],
-    limitations: [
-      "SEO básico",
-      "Poco escalable",
-    ],
+    limitations: ["SEO básico", "Poco escalable"],
     cta: "Comprar Pack Inicio",
   },
   {
     name: "Pack Crecimiento",
-    price: 250,
+    price: 320,
     platform: "WordPress + Elementor",
     features: [
       "1 página con 5-6 secciones",
@@ -44,7 +41,7 @@ const packs: Pack[] = [
   },
   {
     name: "Pack Completo",
-    price: 400,
+    price: 480,
     platform: "WordPress / Tilda",
     features: [
       "1 página con 6-7 secciones",
