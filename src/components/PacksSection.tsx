@@ -34,10 +34,12 @@ const packs: Pack[] = [
     features: [
       "1 página con 5-6 secciones",
       "Branding adaptado a tu marca",
-      "Formulario + enlaces a redes",
+      "Formulario de contacto",
+      "Enlaces a redes",
       "Páginas legales estándar con tus datos",
       "Hasta 2 revisiones",
     ],
+    limitations: ["Sin newsletter", "Sin reserva de citas"]
     cta: "Elegir Pack Crecimiento",
     popular: true,
   },
@@ -47,9 +49,9 @@ const packs: Pack[] = [
     platform: "WordPress / Tilda",
     features: [
       "1 página con 6-7 secciones",
-      "Tipografía, iconos y colores personalizados",
-      "Formulario + email marketing",
-      "100% responsive",
+      "Conexión de email marketing",
+      "Formulario de suscripción a newsletter",
+      "Páginas legales personalizadas",
       "Hasta 3 revisiones",
     ],
     cta: "Contratar Pack Completo",
