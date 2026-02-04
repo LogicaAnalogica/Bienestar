@@ -11,9 +11,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div>
             <h3 className="text-2xl font-serif font-semibold mb-2">Lógica Analógica</h3>
-            <p className="text-background/70">
-              Diseño web profesional para emprendedores.
-            </p>
+            <p className="text-background/70">Diseño web profesional para emprendedores.</p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -23,13 +21,6 @@ const Footer = () => {
             >
               info@logicaanalogica.es
             </a>
-            <Button
-              onClick={scrollToContact}
-              variant="outline"
-              className="border-background/30 text-background hover:bg-background hover:text-foreground transition-colors"
-            >
-              Pide tu web ahora
-            </Button>
           </div>
         </div>
 
