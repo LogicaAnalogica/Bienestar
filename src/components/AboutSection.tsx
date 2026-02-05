@@ -43,7 +43,9 @@ const AboutSection = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Simple</h3>
-              <p className="text-muted-foreground">Sin jerga técnica. Te lo explico todo claro.</p>
+              <p className="text-muted-foreground">
+                Sin jerga técnica. Te lo explico todo claro para que puedas decidir.
+              </p>
             </div>
 
             <div className="p-6">
