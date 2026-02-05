@@ -104,7 +104,7 @@ const ContactSection = () => {
               {isSubmitting ? "Enviando..." : "Enviar mensaje"}
             </Button>
 
-            <p className="text-center text-sm text-muted-foreground">📩 Respondemos rápido para que empieces ya</p>
+            <p className="text-center text-sm text-muted-foreground">📩 Respondo rápido para que empieces ya</p>
           </form>
         </div>
       </div>
