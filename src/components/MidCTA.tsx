@@ -20,7 +20,7 @@ const MidCTA = () => {
           variant="secondary"
           className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-base px-10 py-6"
         >
-          Habla con nosotros
+          Escríbeme.
         </Button>
       </div>
     </section>
