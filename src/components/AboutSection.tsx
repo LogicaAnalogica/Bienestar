@@ -15,7 +15,7 @@ const AboutSection = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
             Consigue una web profesional, clara y funcional sin arruinarte por el camino.{" "}
-            <strong className="text-foreground">Rápido, sin complicaciones.</strong>
+            <strong className="text-foreground">Rápido y sin complicaciones.</strong>
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
@@ -27,7 +27,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Rápido</h3>
               <p className="text-muted-foreground">
-                Tu web lista en días, no en meses. Antes de que vuelvas a postergar..
+                Tu web lista en días, no en meses. Para empezar a vivir ya de tu trabajo.
               </p>
             </div>
 
@@ -43,7 +43,7 @@ const AboutSection = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Simple</h3>
-              <p className="text-muted-foreground">Sin jerga técnica. Te lo explico. todo claro.</p>
+              <p className="text-muted-foreground">Sin jerga técnica. Te lo explico todo claro.</p>
             </div>
 
             <div className="p-6">
