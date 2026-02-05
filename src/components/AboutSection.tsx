@@ -4,7 +4,7 @@ const AboutSection = () => {
       <div className="container-narrow">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
-            ¿Qué te ofrezco?
+            Sobre nosotros
           </span>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-8 leading-tight">
@@ -13,8 +13,8 @@ const AboutSection = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Ayudamos a emprendedores y pequeñas empresas a tener presencia online profesional, minimalista y funcional.{" "}
-            <strong className="text-foreground">Rápido, sin complicaciones técnicas.</strong>
+            Consigue una presencia online profesional y funcional sin arruinarte.{" "}
+            <strong className="text-foreground">Rápido y sin complicaciones técnicas.</strong>
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
