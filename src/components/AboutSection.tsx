@@ -25,7 +25,9 @@ const AboutSection = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Rápido</h3>
-              <p className="text-muted-foreground">Tu web lista en días, no en meses. Sin esperas interminables.</p>
+              <p className="text-muted-foreground">
+                Tu web lista en días para que arranques antes de postergar de nuevo.
+              </p>
             </div>
 
             <div className="p-6">
@@ -40,7 +42,7 @@ const AboutSection = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Simple</h3>
-              <p className="text-muted-foreground">Sin jerga técnica. Te lo explico todo claro.</p>
+              <p className="text-muted-foreground">Sin jerga técnica. Te lo explicamos todo claro.</p>
             </div>
 
             <div className="p-6">
