@@ -28,7 +28,7 @@ const Header = () => {
       <div className="container-narrow">
         <div className="flex items-center justify-between">
           <a
-            href="/"
+            href="https://logicaanalogica.es"
             className="text-xl font-serif font-semibold text-foreground"
             target="_blank"
             rel="noopener noreferrer"
