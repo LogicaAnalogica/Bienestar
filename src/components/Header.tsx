@@ -33,7 +33,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Lógica Analógica
+            Nuevas páginas web para ti
           </a>
 
           {/* Desktop Navigation */}
