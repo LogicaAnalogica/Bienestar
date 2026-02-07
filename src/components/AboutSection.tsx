@@ -15,7 +15,7 @@ const AboutSection = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
             Consigue una web profesional, clara y funcional sin arruinarte por el camino.{" "}
-            <strong className="text-foreground">Rápido y sin complicaciones.</strong>
+            <strong className="text-foreground">De manera ágil y sin complicaciones.</strong>
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
