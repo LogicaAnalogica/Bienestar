@@ -57,26 +57,26 @@ const AboutSection = () => {
 
         {/* Two-column: text + illustration */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
-          <div className="space-y-4 animate-fade-in">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <div className="space-y-6 animate-fade-in">
+            <p className="text-xl md:text-2xl font-serif italic text-muted-foreground leading-loose">
               No necesitas otra herramienta más.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            <p className="text-xl md:text-2xl font-serif italic text-muted-foreground leading-loose">
               Necesitas una web que te quite peso de encima.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-loose">
+            <p className="text-lg md:text-xl text-muted-foreground leading-[2]">
               Una web que explique bien lo que haces, sin que tengas que contarlo mil veces. Que transmita tu valor,
               aunque hoy no tengas tiempo ni energía para "venderte".
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-loose">
+            <p className="text-lg md:text-xl text-muted-foreground leading-[2]">
               Yo me encargo de la parte técnica, del orden y de la estructura para que tú puedas centrarte en ti, en tu
               familia y en seguir acompañando como sabes hacerlo.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground leading-loose">
               Una web sencilla, honesta y profesional sin arruinarte por el camino.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">De manera rápida y sin complicaciones.</strong>
+            <p className="text-lg md:text-xl font-serif italic text-primary leading-loose">
+              De manera rápida y sin complicaciones.
             </p>
           </div>
 
