@@ -1,27 +1,19 @@
 
 
-# New AboutSection Illustration: Laptop Mockup Style
+# Mejorar el formato del texto en AboutSection
 
-## Reference
-The screenshot shows a MacBook on a wooden desk displaying a warm-toned website, surrounded by lifestyle props (vase with pampas grass, coffee cup, glasses). Clean, elegant, beige/taupe palette.
+## Cambios
 
-## What We'll Build
-A new SVG illustration replacing the current abstract wireframe+leaves composition in `AboutSection.tsx`. The new illustration will feature:
+Se ajustara el bloque de texto (lineas 60-81) para darle mas aire y elegancia:
 
-- **A realistic laptop/MacBook frame** with rounded corners, dark bezel, and keyboard hint at the bottom
-- **A website preview inside the screen** using warm beige/sand tones, showing a two-column layout with an image placeholder on the left and text lines + a CTA button on the right (mimicking a real landing page)
-- **Desk surface** - a subtle wooden/warm line beneath the laptop
-- **Lifestyle props** rendered as simple, elegant SVG shapes:
-  - A round vase with pampas grass/dried branches (left side)
-  - A coffee cup on a saucer (right side)
-  - Optional: glasses silhouette near the laptop
+1. **Mas espacio entre parrafos**: Cambiar `space-y-4` a `space-y-6` para mayor separacion vertical entre parrafos.
 
-## Color Palette
-All using existing CSS variables: `primary`, `olive`, `sand`, `warm-beige`, `toasted`, `charcoal` - matching the earthy, rustic-minimalist aesthetic.
+2. **Primera frase destacada**: Las dos primeras frases cortas ("No necesitas otra herramienta mas" y "Necesitas una web que te quite peso de encima") se haran ligeramente mas grandes (`text-xl md:text-2xl`) y con estilo serif italic para darles un toque editorial elegante.
 
-## Technical Details
-- **File modified:** `src/components/AboutSection.tsx` only
-- Replace the `AboutIllustration` component's SVG content
-- No new dependencies or files needed
-- Estimated cost: **1-2 credits**
+3. **Interlineado mas generoso**: Cambiar `leading-relaxed` y `leading-loose` a `leading-loose` y `leading-[2]` respectivamente, para que el texto respire mas.
+
+4. **Frase final destacada**: La frase "De manera rapida y sin complicaciones" se estilizara con font-serif italic y color primary para cerrar con elegancia, en lugar del simple bold actual.
+
+## Archivo modificado
+- `src/components/AboutSection.tsx` - Solo cambios de clases CSS en los parrafos de texto.
 
