@@ -64,15 +64,15 @@ const AboutSection = () => {
             <p className="text-xl md:text-2xl font-serif italic text-muted-foreground" style={{ lineHeight: 1.8 }}>
               Necesitas una web que te quite peso de encima.
             </p>
-            <p className="text-lg md:text-xl font-serif text-muted-foreground" style={{ lineHeight: 1.9 }}>
+            <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 1.9 }}>
               Una web que explique bien lo que haces, sin que tengas que contarlo mil veces. Que transmita tu valor,
               aunque hoy no tengas tiempo ni energía para "venderte".
             </p>
-            <p className="text-lg md:text-xl font-serif text-muted-foreground" style={{ lineHeight: 1.9 }}>
+            <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 1.9 }}>
               Yo me encargo de la parte técnica, del orden y de la estructura para que tú puedas centrarte en ti, en tu
               familia y en seguir acompañando como sabes hacerlo.
             </p>
-            <p className="text-lg md:text-xl font-serif text-muted-foreground" style={{ lineHeight: 1.8 }}>
+            <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 1.8 }}>
               Una web sencilla, honesta y profesional sin arruinarte por el camino.
             </p>
             <p className="text-lg md:text-xl font-serif italic text-primary" style={{ lineHeight: 1.8 }}>
