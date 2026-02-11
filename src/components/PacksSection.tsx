@@ -21,7 +21,7 @@ const packs: Pack[] = [
       "Diseño rápido y limpio",
       "Adaptada a móviles",
       "Con tus datos de contacto",
-      "Páginas legales estándar con tus datos",
+      "Páginas legales estándar",
       "Ajustes mínimos incluidos",
     ],
     limitations: ["Sin formularios", "Sin redes"],
@@ -30,13 +30,13 @@ const packs: Pack[] = [
   {
     name: "Pack Crecimiento",
     price: 320,
-    platform: "WordPress + Elementor",
+    platform: "Conecta y vende",
     features: [
       "1 página con 5-6 secciones",
       "Branding adaptado a tu marca",
       "Formulario de contacto",
       "Enlaces a redes",
-      "Páginas legales estándar con tus datos",
+      "Páginas legales estándar",
       "Hasta 2 revisiones",
     ],
     limitations: ["Sin newsletter", "Sin reserva de citas"],
@@ -45,12 +45,15 @@ const packs: Pack[] = [
   },
   {
     name: "Pack Completo",
-    price: 480,
-    platform: "WordPress / Tilda",
+    price: 560,
+    platform: "Tu negocio despega",
     features: [
       "1 página con 6-7 secciones",
-      "Conexión de email marketing",
-      "O conexión a agenda de reserva de citas",
+      "Branding adaptado a tu marca",
+      "Formulario de contacto",
+      "Enlaces a redes",
+      "Sistema de reserva de citas",
+      "O conexión de email marketing",
       "Formulario de suscripción a newsletter",
       "Páginas legales personalizadas",
       "Hasta 3 revisiones",
@@ -66,15 +69,18 @@ const PacksSection = () => {
 
   return (
     <section id="packs" className="section-padding">
-      <div className="container-narrow">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
             Packs para emprendedoras
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-6">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-6"
+            style={{ lineHeight: 1.4 }}
+          >
             Porque tienes derecho a tener una web que muestre tu valor
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Elige el pack que encaja contigo. Sin sorpresas. Precio cerrado. Tú eliges lo que necesitas.
           </p>
         </div>
